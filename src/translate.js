@@ -32,10 +32,18 @@ function Translate() {
                     <h3><strong>{t('aboutTitle.1')} :</strong></h3>
                     <p>{t('content.1')}</p>
                 </div>
-                <div className="row mt2">
-                    <h3><strong>{t('descripTitle.1')} : </strong></h3>
-                    <p>{t('descripInfo.1')}</p>
+            </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <h3><strong>{t('descripTitle.1')} : </strong></h3>
+                        <p>{t('descripInfo.1')}</p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="assets/images/proven.png"/>
+                    </div>
                 </div>
+
             </div>
         </div>
     );
